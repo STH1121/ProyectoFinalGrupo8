@@ -7,6 +7,8 @@ package prjsemana03.proyectofinalgrupo8;
 /**
  *
  * @author Steven
+ * Isaac Alonso Quesada Salas
+ * Johnny Núñez Hernández
  */
 public class ProyectoFinalGrupo8 {
 
