@@ -13,6 +13,24 @@ package prjsemana03.proyectofinalgrupo8;
 public class ProyectoFinalGrupo8 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      clsPilaCheques pilaCheques = new clsPilaCheques();
+      clsHelper clsH = new clsHelper();
+      
+      
+      pilaCheques.ingresarCheque();
+      
+      pilaCheques.ingresarCheque();
+      clsH.imprimeMensaje(pilaCheques.imprimirPila());
+      pilaCheques.ingresarCheque();
+      
+      pilaCheques.ingresarCheque();
+      clsH.imprimeMensaje(pilaCheques.imprimirPila());
+
+      pilaCheques.firmaCheque();
+      clsH.imprimeMensaje(pilaCheques.imprimirPila());
+      
+      pilaCheques.firmaCheque();
+      pilaCheques.firmaCheque();
+      clsH.imprimeMensaje(pilaCheques.imprimirPila());
     }
 }

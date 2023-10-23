@@ -80,7 +80,7 @@ public class clsPilaCheques {
         
         public String imprimirPila()
     {
-        String respuesta = "";
+        String respuesta = "Id de los Cheques:\n";
         if(!esVacia())
         {
             
